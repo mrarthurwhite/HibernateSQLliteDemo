@@ -5,18 +5,17 @@
 <hibernate-configuration>
 	<session-factory>
 		<!-- Database connection settings -->
-		<!-- http://www.h2database.com/html/quickstart.html -->
-		<property name="connection.driver_class">org.h2.Driver</property>
+		<!-- https://www.srccodes.com/annotation-based-hibernate-hello-world-example-using-maven-build-tool-and-sqlite-database/ -->
+		<property name="connection.driver_class">org.sqlite.JDBC</property>
 		<!-- Following should create a test database in your present directory -->
-		<property name="connection.url">jdbc:h2:./test</property>
-		<property name="connection.username">sa</property>
-		<property name="connection.password">sa</property>
-
+		<property name="connection.url">jdbc:sqlite:./test.db</property>
+		<property name="connection.username"></property>
+		<property name="connection.password"></property>
 		<!-- JDBC connection pool (use the built-in) -->
 		<property name="connection.pool_size">1</property>
 
-		<!-- SQL dialect : https://www.baeldung.com/spring-jpa-test-in-memory-database -->
-		<property name="dialect">org.hibernate.dialect.H2Dialect</property>
+		<!-- SQL dialect : https://gist.github.com/rppowell-lasfs/f0e3b2d18c3be03ada38a3e367eaf1b8 -->
+		<property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
 
 		<!-- Enable Hibernate's automatic session context management -->
 		<property name="current_session_context_class">thread</property>
