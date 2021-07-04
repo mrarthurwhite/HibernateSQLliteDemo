@@ -2,7 +2,6 @@ package com.test.db;
 
 import com.test.db.dao.UserDao;
 import com.test.db.model.User;
-
 public class App {
 
 	public static void main(String[] args) {
