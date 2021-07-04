@@ -36,8 +36,12 @@ https://jar-download.com/artifacts/net.kemitix/sqlite-dialect/0.1.0/source-code
 
 This did not work.
 Instead I had  download the java file & then add it
-to the java project. I should be able to add the dialect class file as a jar. (unfortunately the .jar I obtained from above does not have a source code). I obtained the sqllite dialect file from the link in item above (#5).
+to the java project. I should be able to add the dialect class file as a jar. 
+(unfortunately the .jar I obtained from above does not have a source code). 
+I obtained the sqllite dialect file from the link in item above (#5).
 
-This is where I obtained the src for the sqllite dialect file: 
+This is where I obtained the src for the sqllite dialect file:
+
 https://www.srccodes.com/annotation-based-hibernate-hello-world-example-using-maven-build-tool-and-sqlite-database/
 
+However the above has a method commented which is giving some errors etc.
