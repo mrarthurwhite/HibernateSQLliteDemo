@@ -1,10 +1,8 @@
 /*
- * The author disclaims copyright to this source code.  In place of
- * a legal notice, here is a blessing:
- *
- *    May you do good and not evil.
- *    May you find forgiveness for yourself and forgive others.
- *    May you share freely, never taking more than you give.
+ * src
+ * https://www.srccodes.com/annotation-based-hibernate-hello-world-example-using-maven-build-tool-and-sqlite-database/
+ * alternate sources:
+ * https://gist.github.com/rppowell-lasfs/f0e3b2d18c3be03ada38a3e367eaf1b8
  *
  */
 package org.hibernate.dialect;
